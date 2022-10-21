@@ -1,14 +1,15 @@
 1)//Prime problem
 
-   let count=0; let num;
-    for(let i=1;i<=num;i--)
+   let count=0; 
+    let num=13;
+    for(let i=1;i<=num;i++)
     {
         if( num%i== 0)
         { count++;
             
         }
      }
-        if(count==1)
+        if(count==2)
         {
             console.log("It is a Prime number");
         }
@@ -19,18 +20,15 @@
 
 
 2) //Palindrome problem
+let str="madam";
+let rev_str="";
 
-function checkPalindrome(N, str) {
-    let bag=" ";
-    for(i=N-1;i>=0;i--)
-    {
-        bag+=str[j];
-    }
-      if(str!==bag)
-      {
-          console.log("Yes,the string is a palindrome");
-      }
-      else{
-          console.log("No");
-      }
+for(let i=str.length-1;i>=0;i--){
+  rev_str+=str[i]
+
+}
+if(str==rev_str){
+console.log("yes");
+}else{
+console.log("no");
 }
