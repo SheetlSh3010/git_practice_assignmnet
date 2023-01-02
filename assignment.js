@@ -1,4 +1,4 @@
-1)//Prime problem
+//Prime problem
 
    let count=0; 
     let num=13;
@@ -19,7 +19,7 @@
 
 
 
-2) //Palindrome problem
+ //Palindrome problem
 let str="madam";
 let rev_str="";
 
